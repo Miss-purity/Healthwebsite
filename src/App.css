@@ -1,0 +1,228 @@
+.App {
+  align-items: center;
+}
+.medicare{
+  flex-direction: column;
+  display: flex;
+  
+}
+.plus {
+  font-size: 30px;
+  color: #cb0c19;
+  margin-right: 450px;
+  
+}
+.navbar {
+width: '100%';
+background-color: #96a4bf;
+padding: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.nav-links{
+  display: flex;
+  flex-direction: row;
+ 
+}
+a{
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  margin-inline: 20px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.medicare-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;         /* Prevent wrapping since you have enough space */
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;         /* Optional: set a max width for layout */
+  margin: 0 auto;            /* Center the container */
+}
+
+.content{
+  
+  padding-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;                /* Take half the space */
+  height: 400px;
+  margin-left: -30px;            /* Remove large margin */
+  justify-content: center;   /* Center content vertically */
+}
+
+.drugs{
+  width: 50%;                /* Take half the space */
+  margin-left: 300px;            /* Remove large margin */
+  margin-top: 0;             /* Remove top margin */
+  max-width: 400px;          /* Optional: limit image size */
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  margin-left: -250px;         /* Add some space above the buttons */
+}
+
+.getstartedbtn {
+  background-color: #0c0b0b;
+  color: white;
+  margin-right: 20px;
+  
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+.getstartedbtn:hover {
+  background-color: #b7acad; /* Darker shade on hover */
+}
+.Vector{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+ 
+  z-index: -1; /* Ensure it stays behind other content */
+  
+}
+.Vector-Alarm{
+   flex-direction: row;
+   display: flex;
+}
+.Alarm{
+  width: 20px;
+   height: 20px;
+   margin-right: 10px;
+  
+}
+.Vector-text{
+ flex-direction: row;
+  display: flex;  
+  align-items: center;
+  margin-right: 20px;
+}
+.heading3{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+}
+.heading1,.heading2{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Alarm-text{
+  flex-direction: row;
+  display: flex;  
+  align-items: center;
+}
+.addtocart1,.addtocart2, .addtocart3, .addtocart4, .addtocart5 {
+   background-color: #0c0b0b;
+  color: white;
+  height: 30px;
+  width: 180px;
+  border-radius: 5px;
+}
+.rating1, .rating2, .rating3, .rating4, .rating5 {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+      /* Add some space above the tablets */
+}
+.Star1, .Star2, .Star3, .Star4, .Star5 {
+  width: 50px;
+  height: 20px;
+  margin-left: 10px;         /* Add space between stars */
+}
+.price1, .price2, .price3, .price4, .price5 {
+  margin-left: 10px;         /* Add space between prices */
+}
+.products{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;          /* Add some space above the products */
+}
+.tablets-container1{
+  margin-left: 10px;
+}
+.addtocart4{
+  margin-right: 50px;
+}
+.chooseUs-content{
+   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px; 
+}
+.chooseUs-image1{
+  margin-left: 10px;
+}
+.chooseUs-image3{
+  margin-right: 40px;
+}
+.card1, .card2, .card3, .card4 {
+  width: 200px;              /* Set a fixed width for each card */
+  height: 250px;             /* Set a fixed height for each card */
+  margin: 10px;              /* Add some space between cards */
+  padding: 20px;             /* Add padding inside the card */
+  background-color: #f0f0f0; /* Light background color for cards */
+  border-radius: 10px;       /* Rounded corners for cards */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  border: 10px;/* Subtle shadow effect */
+} 
+
+/* .drugs{
+ margin-left: 800px;
+  margin-top: 30px;
+} */
+/* .medicare-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+} */
+/* .medicare-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  flex-wrap: wrap;             
+  box-sizing: border-box;       
+  max-width: 100%;              
+  overflow: hidden;             
+}
+.content{
+  background-color: aqua;
+  flex-direction: row;
+  padding-inline: 10px;
+  margin-left: 200px;
+  display: inline-block;
+  width: 20%;
+  height: 400px;
+}
+ */
