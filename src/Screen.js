@@ -13,6 +13,11 @@ import img10 from './images/Probiotic.png';
 import img11 from './images/Group 31.png';
 import img12 from './images/Group 32.png';   
 import img13 from './images/Group 33.png';
+import img14 from './images/facebook.png'; 
+import img15 from './images/twitter.png' ;
+import img16 from './images/instagram.png';
+import img17 from './images/linkedin.png'
+// Assuming you have an image for the footer
 
 class Screen extends React.Component {
 
@@ -157,8 +162,68 @@ render() {
                 </div>  
             </div>
 
+        <div className="updates">
+            <h3 className="heading4">Stay Updated</h3>
+            <p className="updated-text">Get the latest health tips and product updates</p>
 
+            <div className="email-container">
+                <input type="email" placeholder="Enter your email" className="email-input" />
+                <button className="subscribe-btn">Subscribe</button>
 
+            </div>
+        </div>
+        <div className="footer">
+            <div className="footer-medicare">
+                <p className="footer-text">MediCare+</p>
+
+                <div className="footer-links">
+                    <p className="footer-description">Your trusted healthcare partner, providing quality medical services and products.</p>
+                    
+                    <div className="icons">
+                        <img src={img14} alt='facebook' className="facebook-icon"/>
+                        <img src={img15} alt='twitter' className="twitter-icon"/>
+                        <img src={img16} alt='instagram' className="instagram-icon"/>   
+                        <img src={img17} alt='linkedin' className="linkedin-icon"/>
+                    </div>
+                </div>
+            </div>
+                <div className="quick-links">
+                    <h4 className="quick-links-title">Quick Links</h4>
+                    <ul className="quick-links-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+         <div className="services-footer"> 
+            <h4 className="services-title">Services</h4>
+            <ul className="services-list">
+                <li><a href="#consultation">Online Consultation</a></li>
+                <li><a href="#prescriptions">Prescription Services</a></li>
+                <li><a href="#delivery">Home Delivery</a></li>
+                <li><a href="#health-tips">Health Tips</a></li>
+            </ul>  
+        </div>
+
+            <div className="contact">
+                <h4 className="services-title">Contact Us</h4>
+                <ul className="services-list">
+                    <li><a href="phone">+1(555)123-4567</a></li>
+                    <li><a href="footer-email">support@medicare.com</a></li>
+                    <li><a href="location">123 Health Street, Medical City, MC 12345</a></li>
+                </ul> 
+
+                 
+            </div>
+        </div>
+        
+        <div className="footer-bottom">
+            <hr className="footer-line"/> 
+            <p className="footer-bottom-text">© 2023 MediCare+. All rights reserved.</p>
+
+        </div>
             </div>
        
     )
