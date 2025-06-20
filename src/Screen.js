@@ -17,7 +17,9 @@ import img14 from './images/facebook.png';
 import img15 from './images/twitter.png' ;
 import img16 from './images/instagram.png';
 import img17 from './images/linkedin.png'
-// Assuming you have an image for the footer
+import img18 from './images/Call.png';
+import img19 from './images/Mail.png';
+import img20 from './images/Location.png';
 
 class Screen extends React.Component {
 
@@ -210,9 +212,11 @@ render() {
             <div className="contact">
                 <h4 className="services-title">Contact Us</h4>
                 <ul className="services-list">
-                    <li><a href="phone">+1(555)123-4567</a></li>
-                    <li><a href="footer-email">support@medicare.com</a></li>
-                    <li><a href="location">123 Health Street, Medical City, MC 12345</a></li>
+                    <li><a href="phone"><img src={img18} alt="Call" className="contact-icon"/>+1(555)123-4567</a></li>
+                    
+                    <li><a href="footer-email"><img src={img19} alt="Mail" className="mail-icon"/>support@medicare.com</a></li>
+                    
+                    <li><a href="location"><img src={img20} alt="Location" className="location-icon"/>123 Health Street, Medical City, MC 12345</a></li>
                 </ul> 
 
                  
